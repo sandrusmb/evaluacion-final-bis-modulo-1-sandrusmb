@@ -1,8 +1,19 @@
 .hero {
-  border: 1px solid red;
   margin-top: 125px;
   height: 100vh;
-  background-image: url(../assets/images/david-van-dijk-3LTht2nxd34-unsplash.jpg);
+  background-image: url(../images/david-van-dijk-3LTht2nxd34-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: -270px;
+
+  &__h1 {
+    font-size: 30px;
+    width: 161px;
+    text-transform: capitalize;
+    color: $text;
+    font-weight: 700;
+    position: absolute;
+    top: 60%;
+    padding-left: 20px;
+  }
 }
