@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  background: $text;
+
+  &__img {
+    width: 154.5px;
+    height: 60px;
+    margin-top: 10px;
+  }
+
+  &__nav {
+    &__ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+
+      &__li {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-transform: uppercase;
+        transition: 1s ease color border;
+
+        &:hover {
+          color: $hover;
+          border-bottom: 3px solid $hover;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
