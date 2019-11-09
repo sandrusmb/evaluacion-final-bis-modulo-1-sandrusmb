@@ -22,15 +22,20 @@
       padding: 0px;
 
       &__li {
-        padding-left: 10px;
+        padding-left: 15px;
         padding-right: 10px;
         text-transform: uppercase;
         transition: 1s ease color border;
 
-        &:hover {
-          color: $hover;
-          border-bottom: 3px solid $hover;
-          padding-bottom: 5px;
+        .link {
+          text-decoration: none;
+          color: $menu;
+
+          &:hover {
+            color: $hover;
+            border-bottom: 3px solid $hover;
+            padding-bottom: 5px;
+          }
         }
       }
     }
