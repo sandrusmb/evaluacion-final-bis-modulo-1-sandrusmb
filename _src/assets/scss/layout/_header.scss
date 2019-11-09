@@ -10,7 +10,6 @@
   background: $text;
 
   @media all and (min-width: 768px) {
-    border: 1px solid red;
     flex-direction: row;
     justify-content: space-between;
     z-index: 99;

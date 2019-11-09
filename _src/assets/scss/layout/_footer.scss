@@ -1,6 +1,12 @@
 .footer {
   height: 90px;
   background-color: $footer;
+  width: 100vw;
+
+  @media all and (min-width: 768px) {
+    margin-top: 63px;
+    width: 100%;
+  }
 
   &__text {
     color: $copy;
