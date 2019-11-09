@@ -15,6 +15,12 @@
     z-index: 99;
   }
 
+  @media all and (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 99;
+  }
+
   &__img {
     width: 154.5px;
     height: 60px;

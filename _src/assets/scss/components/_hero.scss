@@ -1,13 +1,19 @@
 .hero {
   margin-top: 125px;
   height: 100vh;
-  width: 100%;
   background-image: url(../images/david-van-dijk-3LTht2nxd34-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
   @media all and (min-width: 768px) {
     z-index: 0;
+    min-width: 768px;
+    height: 834px;
+  }
+
+  @media all and (min-width: 1024px) {
+    min-width: 1024px;
+    height: 834px;
   }
 
   &__h1 {
