@@ -9,15 +9,26 @@
   top: 0px;
   background: $text;
 
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   &__img {
     width: 154.5px;
     height: 60px;
     margin-top: 10px;
+    @media all and (min-width: 768px) {
+      padding-left: 30px;
+    }
   }
 
   &__nav {
     padding-top: 10px;
     height: 42px;
+    @media all and (min-width: 768px) {
+      padding-right: 30px;
+    }
 
     &__ul {
       list-style: none;
