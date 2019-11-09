@@ -1,0 +1,15 @@
+.footer {
+  height: 90px;
+  background-color: $footer;
+
+  &__text {
+    color: $copy;
+    text-align: center;
+    padding-top: 35px;
+
+    &:hover {
+      color: $darksea;
+      opacity: 0.5;
+    }
+  }
+}
