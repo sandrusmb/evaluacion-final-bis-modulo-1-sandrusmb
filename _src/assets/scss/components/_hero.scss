@@ -4,16 +4,16 @@
   background-image: url(../images/david-van-dijk-3LTht2nxd34-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: 60%;
 
   @media all and (min-width: 768px) {
     z-index: 0;
     min-width: 768px;
-    height: 834px;
+    background-position-x: 0%;
   }
 
   @media all and (min-width: 1024px) {
     min-width: 1024px;
-    height: 834px;
   }
 
   &__h1 {
@@ -27,10 +27,16 @@
     padding-left: 20px;
 
     @media all and (min-width: 768px) {
+      border: 1px solid red;
       font-size: 60px;
       width: 322px;
-      padding-left: 90px;
-      top: 35%;
+      padding-left: 30px;
+    }
+
+    @media all and (min-width: 1024px) {
+      border: 1px solid red;
+      font-size: 60px;
+      padding-left: 50px;
     }
   }
 }

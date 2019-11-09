@@ -4,8 +4,11 @@
   width: 100vw;
 
   @media all and (min-width: 768px) {
-    margin-top: 63px;
+    margin-top: 0px;
     width: 100%;
+  }
+
+  @media all and (min-width: 1024px) {
   }
 
   &__text {
