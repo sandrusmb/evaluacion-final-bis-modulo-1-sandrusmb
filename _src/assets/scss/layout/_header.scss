@@ -25,6 +25,41 @@
     width: 154.5px;
     height: 60px;
     margin-top: 10px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: 5s;
+    animation-timing-function: ease-in-out;
+
+    @keyframes logo {
+      from {
+        transform: translateY(-100px) scale(0.4);
+        border: 1px solid rgba(20, 217, 196, 0.5);
+        border-radius: 8px;
+        padding: 0px 5px;
+        box-shadow: 5px 3px rgba(29, 170, 159, 0.5);
+        opacity: 0.2;
+      }
+
+      to {
+        transform: translateY(0px);
+        border: 1px solid rgba(20, 217, 196, 0.5);
+        border-radius: 8px;
+        padding: 0px 5px;
+        box-shadow: 5px 3px rgba(29, 170, 159, 0.5);
+        opacity: 1;
+
+        // border-bottom: 1px solid rgba(20, 217, 196, 1);
+        // border-radius: 5px;
+        // padding: 0px 5px;
+      }
+    }
+    &:hover {
+      border: 1px solid rgba(20, 217, 196, 0.5);
+      border-radius: 8px;
+      padding: 0px 5px;
+      box-shadow: 5px 3px rgba(29, 170, 159, 0.5);
+      transform: scale(0.8);
+    }
 
     @media all and (min-width: 768px) {
       padding-left: 30px;
@@ -59,7 +94,7 @@
         padding-left: 15px;
         padding-right: 10px;
         text-transform: uppercase;
-        transition: 1s ease color border;
+        transition: color ease 1s;
 
         &__link {
           text-decoration: none;
