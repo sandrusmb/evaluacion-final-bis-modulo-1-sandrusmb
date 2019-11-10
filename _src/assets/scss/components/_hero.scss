@@ -4,16 +4,17 @@
   background-image: url(../images/david-van-dijk-3LTht2nxd34-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: 60%;
+  background-position-x: 65%;
 
   @media all and (min-width: 768px) {
     z-index: 0;
     min-width: 768px;
-    background-position-x: 0%;
+    background-position-x: 40%;
   }
 
   @media all and (min-width: 1024px) {
     min-width: 1024px;
+    background-position-x: 0;
   }
 
   &__h1 {
