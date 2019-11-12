@@ -120,3 +120,5 @@ En principio puedes descargar todos los archivos fuera de **\_src/** y sustituir
 ## Falta algo?
 
 Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de los Issues o si te animas a mejorarlo mándanos un PR :)
+
+hola
